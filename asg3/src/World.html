@@ -1,0 +1,67 @@
+<!--
+Jordyn Salazar
+jobsalaz@ucsc.edu
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>World</title>
+    </head>
+
+    <body onload="main()">
+        <canvas id="webgl" width="400" height="400">
+        </canvas>
+        <p>
+        <!--<button type="button" id="clearButton">Clear Canvas</button>--> 
+        <p>
+        <!--<b>Drawing Mode</b>--> 
+        <p>
+        <!--<button type="button" id="pointButton">Square</button>--> 
+        <!--<button type="button" id="triangleButton">Triangle</button>--> 
+        <!--<button type="button" id="circleButton">Circle</button>--> 
+        <p>
+        <p id="numdot"> ms: -- fps: --</p>
+        <p> Collect all the orbs 
+        <p id="orbCount">Orbs collected: 0/0 total</p>
+        <p>
+        <button type="button" id="rainToggleButton">Start Rain</button>
+        <p>
+        <p> Use + or = to place blocks in front of you
+        <p> Use - or _ to remove blocks in front of you 
+        <p> Use W, A, S, D to move around 
+        <p> Use Q and E to pan the camera
+        <p> Click and drag on the canvas to rotate the camera
+        <p>
+        <!--Animation:-->
+        <!--<button type="button" id="animateOnButton">ON</button>-->
+        <!--<button type="button" id="animateOffButton">OFF</button>-->
+        <p>
+        <!--<input type="range" id="redSlide" min="0" max="100" value="100">-->
+        <!--<input type="range" id="magentaSlide" min="-45" max="45" value="0">-->
+        <!--<input type="range" id="yellowSlide" min="-45" max="45" value="0">-->
+        <!--<button type="button" id="animateYellowOnButton"></button>-->
+        <!--<button type="button" id="animateYellowOffButton"></button>-->
+        </div>
+       
+        <p>
+       <!--Camera Angle <input type="range" min="0" max="90" value="45" class="slider" id="angleSlide">-->
+        
+
+            
+        
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="lib/cuon-matrix-cse160.js"></script>
+        <script src="Triangle.js?v=20260421"></script>
+        <script src="Circle.js?v=20260421"></script>
+        <script src="Point.js?v=20260421"></script> 
+        <script src="Cube.js?v=20260421"></script>
+        <script src="Camera.js?v=20260421"></script>
+        <script src="Orb.js?v=20260503"></script>
+        <script src="World.js?v=20260503"></script>
+
+
+    </body>
+</html>
