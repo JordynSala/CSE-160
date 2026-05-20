@@ -1,0 +1,80 @@
+<!--
+Jordyn Salazar
+jobsalaz@ucsc.edu
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>World</title>
+    </head>
+
+    <body onload="main()">
+        <canvas id="webgl" width="400" height="400">
+        </canvas>
+        <p>
+        <!--<button type="button" id="clearButton">Clear Canvas</button>--> 
+        <p>
+        <!--<b>Drawing Mode</b>--> 
+        <p>
+        <!--<button type="button" id="pointButton">Square</button>--> 
+        <!--<button type="button" id="triangleButton">Triangle</button>--> 
+        <!--<button type="button" id="circleButton">Circle</button>--> 
+        <p>
+        <p id="numdot"> ms: -- fps: --</p>
+        <button type="button" id="lightOn">Light On</button>
+        <button type="button" id="lightOff">Light Off</button>
+        <p>
+        <button type="button" id="normalOn">Normal On</button>
+        <button type="button" id="normalOff">Normal Off</button>
+        <p>
+        Light X <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideX">
+        Light Y <input type="range" min="-250" max="250" value="100" class="slider" id="lightSlideY">
+        Light Z <input type="range" min="-250" max="250" value="-200" class="slider" id="lightSlideZ">
+        <p>
+        Light Color R <input type="range" min="0" max="100" value="100" class="slider" id="lightColorR">
+        Light Color G <input type="range" min="0" max="100" value="100" class="slider" id="lightColorG">
+        Light Color B <input type="range" min="0" max="100" value="90" class="slider" id="lightColorB">
+        <p>
+        <button type="button" id="spotOn">Spot On</button>
+        <button type="button" id="spotOff">Spot Off</button>
+        <p>
+
+        Camera Angle <input type="range" min="-180" max="180" value="0" class="slider" id="angleSlide">
+        <p>
+        <!--Animation:-->
+        <!--<button type="button" id="animateOnButton">ON</button>-->
+        <!--<button type="button" id="animateOffButton">OFF</button>-->
+        <p>
+        <!--<input type="range" id="redSlide" min="0" max="100" value="100">-->
+        <!--<input type="range" id="magentaSlide" min="-45" max="45" value="0">-->
+        <!--<input type="range" id="yellowSlide" min="-45" max="45" value="0">-->
+        <!--<button type="button" id="animateYellowOnButton"></button>-->
+        <!--<button type="button" id="animateYellowOffButton"></button>-->
+        </div>
+       
+        <p>
+        
+
+            
+        
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="lib/cuon-matrix-cse160.js"></script>
+        <script src="Triangle.js?v=20260421"></script>
+        <script src="Circle.js?v=20260421"></script>
+        <script src="Point.js?v=20260421"></script> 
+        <script src="Cube.js?v=20260421"></script>
+        <script src="Camera.js?v=20260421"></script>
+        <script src="World.js?v=20260503"></script>
+        <script src="Sphere.js?v=20260421"></script>
+        <script src="Panda.js?v=20260421"></script>
+        <script src="Cylinder.js?v=20260421"></script>
+        <script src="Model.js?v=20260421"></script>
+
+
+
+
+    </body>
+</html>
